@@ -5,20 +5,20 @@
 - sudo systemctl stop firewalld
 - sudo systemctl disable firewalld
   
-- clear
-  nano /etc/hosts.deny
+- !clear
+- nano /etc/hosts.deny
   
-- next
-  systemctl stop sshd.service
+- !next
+- systemctl stop sshd.service
   
-- setting
-  nano /etc/ssh/sshd_config
+- !setting
+- nano /etc/ssh/sshd_config
   
-- next
-  systemctl restart sshd.service
-  systemctl status sshd.service
+- !next
+- systemctl restart sshd.service
+- systemctl status sshd.service
   
-~ IF NOT WORKING
+~ !IF NOT WORKING
   
 - git config --global --unset https.proxy
 - set https:// to git://
