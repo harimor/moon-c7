@@ -1,9 +1,9 @@
 # moon-c7 \ CentOS 7
 
 ~ IF GITHUB.COM NOT CLONING!
-  sudo yum -y install nano git
-  sudo systemctl stop firewalld
-  sudo systemctl disable firewalld
+- sudo yum -y install nano git
+- sudo systemctl stop firewalld
+- sudo systemctl disable firewalld
   
 - clear
   nano /etc/hosts.deny
