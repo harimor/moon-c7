@@ -18,7 +18,7 @@
   systemctl restart sshd.service
   systemctl status sshd.service
   
-  [IF NOT WORKING]
+~ IF NOT WORKING
   
-   git config --global --unset https.proxy
-   [set https:// to git://]
+- git config --global --unset https.proxy
+- set https:// to git://
